@@ -1,0 +1,8 @@
+{
+    "files.associations": {
+        "vector": "c",
+        "xstring": "c",
+        "stdint.h": "c",
+        "stack.h": "c"
+    }
+}
