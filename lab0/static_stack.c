@@ -1,9 +1,11 @@
 
 #include "stack.h"
 
-void initializeStack(Stack *Stack)
+void initializeStack()
 {    
-    Stack->top=-1;
+    staticStack* stack = (staticStack*)malloc(sizeof(staticStack)); 
+    stack->top = -1; 
+    return stack; 
 }
 
 int isStaticFull(Stack *stack) 

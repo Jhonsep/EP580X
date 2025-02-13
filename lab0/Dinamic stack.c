@@ -5,7 +5,7 @@ Stack* createStack(unsigned capacity)
     Stack* stack = (Stack*)malloc(sizeof(Stack)); 
     stack->capacity = capacity; 
     stack->top = -1; 
-    stack->item = (int*)malloc(stack->capacity * sizeof(int)); 
+    stack->item = (Item*)malloc(stack->capacity * sizeof(Item)); 
     return stack; 
 } 
 
